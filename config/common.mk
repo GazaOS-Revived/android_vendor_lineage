@@ -3,7 +3,7 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/matrixx.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
 
-PRODUCT_BRAND ?= ProjectMatrixx
+PRODUCT_BRAND ?= GazaOS 
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
